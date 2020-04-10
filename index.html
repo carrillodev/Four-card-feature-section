@@ -9,67 +9,80 @@
   <title>Frontend Mentor | Four card feature section</title>
 
   <link rel="stylesheet" href="./css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
   
-  <header>
-    <div class="title">
-      <h2>Reliable, efficient delivery</h2>
-      <h2>Powered by Technology</h2>
-    </div>
+  <div class="page-container">
+    <header>
+      <div class="title">
+        <h2>Reliable, efficient delivery</h2>
+        <h2 class="light">Powered by Technology</h2>
+      </div>
+    
+      <div class="description">
+        <p>Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful</p>
+      </div>
+    </header>
   
-    <div class="description">
-      <p>Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful</p>
-    </div>
-  </header>
-
-  <main>
-    <div class="container-cards">
-
-      <div class="card">
-        <div class="card-title">
-          <h3>Supervisor</h3>
-        </div>
-        <div class="card-desc">
-          <p>Monitors activity to identify project roadblocks</p>
-        </div>
-      </div>
-    
-      <div class="card">
-        <div class="card-title">
-          <h3>Team Builder</h3>
-        </div>
-        <div class="card-desc">
-          <p>Scans our talent network to create the optimal team for your project</p>
-        </div>
-      </div>
-    
-      <div class="card">
-        <div class="card-title">
-          <h3>Karma</h3>
-        </div>
-        <div class="card-desc">
-          <p>Regularly evaluates our talent to ensure quality</p>
-        </div>
-      </div>
-    
-      <div class="card">
-        <div class="card-title">
-          <h3>Calculator</h3>
-        </div>
-        <div class="card-desc">
-          <p>Uses data from past projects to provide better delivery estimates</p>
-        </div>
-      </div>
-
-    </div>
-  </main>
+    <main>
+      <div class="container-cards">
   
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Felipe C</a>.
-    </p>
-  </footer>
+        <div class="left">
+          <div class="card cyan">
+            <div class="card-title">
+              <h3>Supervisor</h3>
+            </div>
+            <div class="card-desc">
+              <p>Monitors activity to identify project roadblocks</p>
+            </div>
+            <img src="./images/icon-supervisor.svg" alt="Supervisor">
+          </div>
+        </div>
+      
+        <div class="center">
+          <div class="card red">
+            <div class="card-title">
+              <h3>Team Builder</h3>
+            </div>
+            <div class="card-desc">
+              <p>Scans our talent network to create the optimal team for your project</p>
+            </div>
+            <img src="./images/icon-team-builder.svg" alt="Team-builder">
+          </div>
+        
+          <div class="card orange">
+            <div class="card-title">
+              <h3>Karma</h3>
+            </div>
+            <div class="card-desc">
+              <p>Regularly evaluates our talent to ensure quality</p>
+            </div>
+            <img src="./images/icon-karma.svg" alt="Karma">
+          </div>
+        </div>
+      
+        <div class="right">
+          <div class="card blue">
+            <div class="card-title">
+              <h3>Calculator</h3>
+            </div>
+            <div class="card-desc">
+              <p>Uses data from past projects to provide better delivery estimates</p>
+            </div>
+            <img src="./images/icon-calculator.svg" alt="Calculator">
+          </div>
+        </div>
+  
+      </div>
+    </main>
+    
+    <footer>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/carrillof">Felipe C</a>.
+      </p>
+    </footer>
+  </div>
 </body>
 </html>
